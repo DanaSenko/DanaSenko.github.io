@@ -1,21 +1,75 @@
 body {
-    font-family: sans-serif;
-    line-height: 1.5;
-  
-    background-color: #f9f9f9;
-    color: #333333;
-  
-    width: 980px;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 0;
-  }
-  
-  main > h2 {
-    text-align: center;
-    font-size: 25px;
-  }
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f7fa; /* РќРµР¶РЅС‹Р№ СЃРІРµС‚Р»Рѕ-СЃРµСЂС‹Р№ РґР»СЏ С„РѕРЅР° */
+  color: #2c3e50; /* Р“Р»СѓР±РѕРєРёР№ СЃРµСЂРѕ-СЃРёРЅРёР№ РґР»СЏ С‚РµРєСЃС‚Р° */
+  width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* РћСЃРЅРѕРІРЅРѕР№ Р·Р°РіРѕР»РѕРІРѕРє */
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #34495e; /* Р‘РѕР»РµРµ С‚РµРјРЅС‹Р№ Р°РєС†РµРЅС‚ РґР»СЏ Р·Р°РіРѕР»РѕРІРєРѕРІ */
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* РџРѕРґР·Р°РіРѕР»РѕРІРєРё РІ РѕСЃРЅРѕРІРЅРѕРј РєРѕРЅС‚РµРЅС‚Рµ */
+main > h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #16a085; /* Р—РµР»С‘РЅС‹Р№ Р°РєС†РµРЅС‚ РґР»СЏ РїРѕРґР·Р°РіРѕР»РѕРІРєРѕРІ */
+}
+
+/* РЎС‚РёР»Рё РґР»СЏ СЃСЃС‹Р»РѕРє */
+a {
+  color: #2980b9; /* РЇСЂРєРёР№ СЃРёРЅРёР№ РґР»СЏ СЃСЃС‹Р»РѕРє */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3498db; /* РЎРІРµС‚Р»РµРµ РїСЂРё РЅР°РІРµРґРµРЅРёРё */
+}
+
+/* РћСЃРЅРѕРІРЅРѕР№ РєРѕРЅС‚РµРЅС‚ */
+main {
+  background: #ffffff; /* Р‘РµР»С‹Р№ Р±Р»РѕРє СЃ СЃРѕРґРµСЂР¶РёРјС‹Рј */
+  border: 1px solid #dcdde1; /* Р›РµРіРєР°СЏ СЂР°РјРєР° */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* РњСЏРіРєР°СЏ С‚РµРЅСЊ */
+  border-radius: 8px; /* Р—Р°РєСЂСѓРіР»РµРЅРЅС‹Рµ СѓРіР»С‹ */
+  padding: 20px;
+}
+
+/* Р”Р»СЏ СЃРїРёСЃРєРѕРІ */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+/* РљРЅРѕРїРєРё */
+button {
+  background-color: #e74c3c; /* РљСЂР°СЃРЅС‹Р№ Р°РєС†РµРЅС‚ */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c0392b; /* РўС‘РјРЅС‹Р№ РєСЂР°СЃРЅС‹Р№ РїСЂРё РЅР°РІРµРґРµРЅРёРё */
+}
